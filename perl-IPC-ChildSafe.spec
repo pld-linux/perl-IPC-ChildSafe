@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	IPC
 %define	pnam	ChildSafe
-%include	/usr/lib/rpm/macros.perl
 Summary:	IPC-ChildSafe perl module
 Summary(pl):	Modu³ perla IPC-ChildSafe
 Name:		perl-IPC-ChildSafe
 Version:	3.12
-Release:	2
-
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ IPC-ChildSafe umo¿liwia kontrolowanie procesu potomnego bez
 blokowania.
 
 %prep
-%setup -q -n IPC-ChildSafe-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
