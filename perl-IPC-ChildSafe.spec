@@ -4,7 +4,7 @@
 Summary:	IPC::ChildSafe perl module
 Summary(pl):	Modu³ perla IPC::ChildSafe
 Name:		perl-IPC-ChildSafe
-Version:	3.14
+Version:	3.15
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
