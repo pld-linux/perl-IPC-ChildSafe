@@ -6,7 +6,8 @@ Summary(pl):	Modu³ perla IPC::ChildSafe
 Name:		perl-IPC-ChildSafe
 Version:	3.16
 Release:	1
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	68f9ae8be45c7399272a26bbe86d12ba
