@@ -4,12 +4,12 @@
 Summary:	IPC::ChildSafe perl module
 Summary(pl):	Modu³ perla IPC::ChildSafe
 Name:		perl-IPC-ChildSafe
-Version:	3.15
-Release:	2
+Version:	3.16
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	c9c8b8b38a4de7eb535962ff75725407
+# Source0-md5:	68f9ae8be45c7399272a26bbe86d12ba
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
