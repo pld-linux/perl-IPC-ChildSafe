@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	IPC
-%define	pnam	ChildSafe
+%define		pdir	IPC
+%define		pnam	ChildSafe
 Summary:	IPC::ChildSafe perl module
 Summary(pl):	Modu³ perla IPC::ChildSafe
 Name:		perl-IPC-ChildSafe
