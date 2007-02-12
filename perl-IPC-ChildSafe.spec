@@ -6,7 +6,7 @@
 %define		pdir	IPC
 %define		pnam	ChildSafe
 Summary:	IPC::ChildSafe perl module
-Summary(pl):	Modu≥ perla IPC::ChildSafe
+Summary(pl.UTF-8):   Modu≈Ç perla IPC::ChildSafe
 Name:		perl-IPC-ChildSafe
 Version:	3.16
 Release:	1
@@ -22,8 +22,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 IPC::ChildSafe - control a child process without blocking.
 
-%description -l pl
-IPC::ChildSafe umoøliwia kontrolowanie procesu potomnego bez
+%description -l pl.UTF-8
+IPC::ChildSafe umo≈ºliwia kontrolowanie procesu potomnego bez
 blokowania.
 
 %prep
