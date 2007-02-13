@@ -6,7 +6,7 @@
 %define		pdir	IPC
 %define		pnam	ChildSafe
 Summary:	IPC::ChildSafe perl module
-Summary(pl.UTF-8):   Moduł perla IPC::ChildSafe
+Summary(pl.UTF-8):	Moduł perla IPC::ChildSafe
 Name:		perl-IPC-ChildSafe
 Version:	3.16
 Release:	1
