@@ -5,26 +5,30 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	IPC
 %define		pnam	ChildSafe
-Summary:	IPC::ChildSafe perl module
-Summary(pl.UTF-8):	Moduł perla IPC::ChildSafe
+Summary:	IPC::ChildSafe - control a child process without blocking
+Summary(pl.UTF-8):	IPC::ChildSafe - sterowanie procesem potomnym bez blokowania
 Name:		perl-IPC-ChildSafe
 Version:	3.16
 Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/IPC/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	68f9ae8be45c7399272a26bbe86d12ba
+URL:		http://search.cpan.org/dist/IPC-ChildSafe/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-IPC::ChildSafe - control a child process without blocking.
+IPC::ChildSafe Perl module allows to control a child process without
+blocking. It addresses the "blocking problem" inherent in most
+coprocessing designs such as IPC::Open3.
 
 %description -l pl.UTF-8
-IPC::ChildSafe umożliwia kontrolowanie procesu potomnego bez
-blokowania.
+Moduł Perla IPC::ChildSafe umożliwia sterowanie procesem potomnym bez
+blokowania. Rozwiązuje "problem blokowania" dziedziczony przez
+większość rozwiązań wieloprocesowych, takich jak IPC::Open3.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
