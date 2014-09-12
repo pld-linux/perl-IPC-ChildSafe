@@ -59,7 +59,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README
 %{perl_vendorarch}/IPC/*.pm
 %dir %{perl_vendorarch}/auto/IPC/ChildSafe
-%{perl_vendorarch}/auto/IPC/ChildSafe/ChildSafe.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/IPC/ChildSafe/ChildSafe.so
 %{_mandir}/man3/*
 %{_examplesdir}/%{name}-%{version}
