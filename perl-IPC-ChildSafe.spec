@@ -9,7 +9,7 @@ Summary:	IPC::ChildSafe - control a child process without blocking
 Summary(pl.UTF-8):	IPC::ChildSafe - sterowanie procesem potomnym bez blokowania
 Name:		perl-IPC-ChildSafe
 Version:	3.16
-Release:	5
+Release:	6
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
