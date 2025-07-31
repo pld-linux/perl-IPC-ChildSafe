@@ -1,0 +1,12 @@
+--- IPC-ChildSafe-3.16/ChildSafe_wrap.c.orig	2001-11-15 19:21:34.000000000 +0100
++++ IPC-ChildSafe-3.16/ChildSafe_wrap.c	2025-07-31 23:48:13.671894750 +0200
+@@ -451,6 +451,9 @@
+ #endif
+ 
+ #include "childsafe.h"
++
++char *child_get_stderr_perl(CHILD *handle);
++char *child_get_stdout_perl(CHILD *handle);
+ #ifdef PERL_OBJECT
+ #define MAGIC_CLASS _wrap_ChildSafe_var::
+ class _wrap_ChildSafe_var : public CPerl {

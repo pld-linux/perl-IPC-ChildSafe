@@ -14,6 +14,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/IPC/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	68f9ae8be45c7399272a26bbe86d12ba
+Patch0:		prototypes.patch
 URL:		http://search.cpan.org/dist/IPC-ChildSafe/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -31,6 +32,7 @@ większość rozwiązań wieloprocesowych, takich jak IPC::Open3.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
+%patch -P0 -p1
 
 %build
 %{__perl} Makefile.PL \
